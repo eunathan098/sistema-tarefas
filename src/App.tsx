@@ -1,11 +1,14 @@
-import Header from './components/Header/Header'
-import './App.css'
+import { BrowserRouter } from "react-router-dom"
+import CenterTarefas from "./components/CenterTarefas/CenterTarefas"
+import  './index.css'
 
 function App() {
 
   return (
     <>
-      <Header></Header>
+      <BrowserRouter>
+        <CenterTarefas></CenterTarefas>
+      </BrowserRouter>
     </>
   )
 }
