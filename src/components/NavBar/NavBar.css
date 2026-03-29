@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.title-navbar{
+    color: green;
+    margin: 10px;
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-tarefas{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    transition:  0.2s ease-in-out;
+}
+
+.btn-tarefas:hover{
+    transform: scale(1.1);
+}
